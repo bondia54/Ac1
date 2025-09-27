@@ -33,11 +33,14 @@ body {
 .card1 {
   background: #fdf797;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
 }
 
 .card2 {
   background-color: #97fdfb;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card2 img {
@@ -48,14 +51,20 @@ body {
 .card3 {
   background:rgb(154, 251, 151);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-right: auto;
 }
 
-.card:hover {
+.card1:hover {
   transform: translateY(-9px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card2:hover {
+  transform: translateY(-9px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card3:hover {
   transform: translateY(-9px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
@@ -68,11 +77,11 @@ body {
 
 .card .profession {
   font-size: 0.9rem;
-  color: #555;
+  color: #555555;
   margin-bottom: 10px;
 }
 
 .card .description {
   font-size: 0.85rem;
-  color: #333;
+  color: #333333;
 }
